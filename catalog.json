@@ -1,0 +1,649 @@
+{
+  "schema_version": 1,
+  "project": "Harness_Local",
+  "profiles": [
+    "base",
+    "completo"
+  ],
+  "components": [
+    {
+      "id": "harness-local",
+      "kind": "skill",
+      "distribution": "bundled"
+    },
+    {
+      "id": "revisar-escrita",
+      "kind": "skill",
+      "distribution": "bundled"
+    },
+    {
+      "id": "brand-naming",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/arnabbagxd/Brand-building-skills",
+      "license": "MIT",
+      "revision": "4a0a8b5b7a0f64bf0fc551978a18a591670a5223"
+    },
+    {
+      "id": "brand-architecture",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/arnabbagxd/Brand-building-skills",
+      "license": "MIT",
+      "revision": "4a0a8b5b7a0f64bf0fc551978a18a591670a5223"
+    },
+    {
+      "id": "caveman",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/JuliusBrussee/caveman",
+      "license": "Apache-2.0",
+      "revision": "b89752f6bca5a26bfde8b019813554241800ca99"
+    },
+    {
+      "id": "claude-automation-recommender",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/anthropics/claude-plugins-official",
+      "license": "Apache-2.0",
+      "revision": "e6143c9807a001832badb63e89d58ffe25d542ec"
+    },
+    {
+      "id": "claude-settings-audit",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/getsentry/skills",
+      "license": "Apache-2.0",
+      "revision": "a582c51ee29d0f35e6ac321340796f77d43da733"
+    },
+    {
+      "id": "design-brief",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/julianoczkowski/designer-skills",
+      "license": "Apache-2.0",
+      "revision": "c259656c76d9758d7ead46b0d2f125cbe84f8665"
+    },
+    {
+      "id": "design-taste-frontend",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/Leonxlnx/taste-skill",
+      "license": "MIT",
+      "revision": "f6b76575f949707b4e3c37cd86cb44b0b98643e8"
+    },
+    {
+      "id": "frontend-design",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/anthropics/skills",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "grill-me",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "MIT",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "requires": [
+        "grilling"
+      ]
+    },
+    {
+      "id": "grilling",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "MIT",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa"
+    },
+    {
+      "id": "information-architecture",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/julianoczkowski/designer-skills",
+      "license": "Apache-2.0",
+      "revision": "c259656c76d9758d7ead46b0d2f125cbe84f8665"
+    },
+    {
+      "id": "jupyter-notebook",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/openai/skills",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "ponytail",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/DietrichGebert/ponytail",
+      "license": "MIT",
+      "revision": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846"
+    },
+    {
+      "id": "property-based-testing",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/trailofbits/skills",
+      "license": "CC-BY-SA-4.0",
+      "revision": "149d7b21f4067765b82e67029730b42d228ef4b4"
+    },
+    {
+      "id": "source-driven-development",
+      "kind": "skill",
+      "distribution": "bundled",
+      "source": "https://github.com/addyosmani/agent-skills",
+      "license": "MIT",
+      "revision": "39b723ceebf81474d0557c1fecd01eddab585563"
+    },
+    {
+      "id": "agent-browser",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/vercel-labs/agent-browser",
+      "revision": "v0.43.0",
+      "license": "Apache-2.0",
+      "requires": [
+        "agent-browser-cli"
+      ]
+    },
+    {
+      "id": "cartographer",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/kingbootoshi/cartographer",
+      "revision": "a62d16981b6aa1f5f6ef56701c49b81a16a8e30a",
+      "requires": [
+        "cartographer-cli"
+      ]
+    },
+    {
+      "id": "docling",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/docling-project/docling",
+      "revision": "v2.150.1",
+      "license": "MIT",
+      "requires": [
+        "docling-cli"
+      ]
+    },
+    {
+      "id": "find-skills",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/vercel-labs/skills",
+      "revision": "57217cf86ba38148a57af9e90d14a4c049558330",
+      "license": "MIT",
+      "requires": [
+        "find-skills-cli"
+      ]
+    },
+    {
+      "id": "graphify",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/Graphify-Labs/graphify",
+      "requires": [
+        "graphify-cli"
+      ]
+    },
+    {
+      "id": "impeccable-review",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/pbakaus/impeccable",
+      "revision": "engine-v0.1.25",
+      "license": "Apache-2.0",
+      "requires": [
+        "impeccable-cli"
+      ]
+    },
+    {
+      "id": "manage-skills",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/xingkongliang/skills-manager",
+      "revision": "172ba80bf2fba235be32a5ee508c7e2556a1da8c",
+      "license": "MIT",
+      "requires": [
+        "skills-manager-cli"
+      ]
+    },
+    {
+      "id": "redacao-e-estudo-de-caso",
+      "kind": "skill",
+      "distribution": "installed"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "kind": "skill",
+      "distribution": "installed",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "revision": "v2.15.0",
+      "license": "MIT",
+      "requires": [
+        "ui-ux-data"
+      ]
+    },
+    {
+      "id": "playwright_test_planner",
+      "kind": "agent",
+      "distribution": "bundled",
+      "requires": [
+        "playwright-test"
+      ]
+    },
+    {
+      "id": "playwright_test_generator",
+      "kind": "agent",
+      "distribution": "bundled",
+      "requires": [
+        "playwright-test"
+      ]
+    },
+    {
+      "id": "playwright_test_healer",
+      "kind": "agent",
+      "distribution": "bundled",
+      "requires": [
+        "playwright-test"
+      ]
+    },
+    {
+      "id": "harness_local",
+      "kind": "mcp",
+      "distribution": "bundled"
+    },
+    {
+      "id": "playwright-test",
+      "kind": "mcp",
+      "distribution": "runtime",
+      "scope": "profile",
+      "requires": [
+        "playwright-runtime"
+      ]
+    },
+    {
+      "id": "ast_grep",
+      "kind": "mcp",
+      "distribution": "runtime",
+      "scope": "profile",
+      "requires": [
+        "ast-grep-runtime"
+      ]
+    },
+    {
+      "id": "repowise",
+      "kind": "mcp",
+      "distribution": "runtime",
+      "scope": "project",
+      "requires": [
+        "repowise-cli"
+      ]
+    },
+    {
+      "id": "ecc",
+      "kind": "plugin",
+      "distribution": "host",
+      "source": "https://github.com/affaan-m/everything-claude-code",
+      "revision": "2.2.3"
+    },
+    {
+      "id": "powershell",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/PowerShell/PowerShell",
+      "revision": "7.6.9",
+      "paths": [
+        "runtimes/powershell/pwsh.exe"
+      ]
+    },
+    {
+      "id": "node",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/nodejs/node",
+      "revision": "24.22.3",
+      "paths": [
+        "runtimes/node/node.exe"
+      ]
+    },
+    {
+      "id": "playwright-runtime",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/microsoft/playwright",
+      "revision": "1.65.1",
+      "paths": [
+        "playwright/Invoke-Playwright.ps1",
+        "playwright/mcp-default.config.cjs",
+        "playwright/node_modules/playwright/cli.js",
+        "playwright/browsers"
+      ],
+      "requires": [
+        "powershell",
+        "node"
+      ]
+    },
+    {
+      "id": "ast-grep-runtime",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/ast-grep/ast-grep-mcp",
+      "revision": "51d5a23f025c73c02032a98748dc06942548c5e1",
+      "paths": [
+        "ast-grep/venv/Scripts/python.exe",
+        "ast-grep/upstream/main.py",
+        "ast-grep/bin/ast-grep.exe"
+      ]
+    },
+    {
+      "id": "agent-browser-cli",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/vercel-labs/agent-browser",
+      "revision": "0.43.0",
+      "paths": [
+        "agent-browser/Invoke-AgentBrowser.ps1",
+        "agent-browser/agent-browser.exe",
+        "agent-browser/agent-browser.json"
+      ],
+      "requires": [
+        "powershell",
+        "playwright-runtime"
+      ]
+    },
+    {
+      "id": "cartographer-cli",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/kingbootoshi/cartographer",
+      "revision": "a62d16981b6aa1f5f6ef56701c49b81a16a8e30a",
+      "paths": [
+        "cartographer/Invoke-Cartographer.ps1",
+        "cartographer/scan-codebase.py"
+      ],
+      "requires": [
+        "skillspector"
+      ]
+    },
+    {
+      "id": "docling-cli",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/docling-project/docling",
+      "revision": "2.150.1",
+      "paths": [
+        "docling/venv/Scripts/python.exe",
+        "docling/convert_document.py",
+        "docling/models"
+      ]
+    },
+    {
+      "id": "find-skills-cli",
+      "kind": "runtime",
+      "distribution": "bundled",
+      "source": "https://github.com/vercel-labs/skills",
+      "revision": "57217cf86ba38148a57af9e90d14a4c049558330",
+      "paths": [
+        "runtime/find_skills.py"
+      ]
+    },
+    {
+      "id": "graphify-cli",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/Graphify-Labs/graphify",
+      "revision": "0.9.112",
+      "paths": [
+        "graphify/Invoke-Graphify.ps1",
+        "graphify/venv/Scripts/graphify.exe"
+      ],
+      "requires": [
+        "powershell"
+      ]
+    },
+    {
+      "id": "impeccable-cli",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/pbakaus/impeccable",
+      "revision": "0.1.25",
+      "paths": [
+        "frontend/Detect-Impeccable.ps1",
+        "frontend/impeccable.exe"
+      ],
+      "requires": [
+        "powershell"
+      ]
+    },
+    {
+      "id": "repowise-cli",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/repowise-dev/repowise",
+      "revision": "0.62.0",
+      "paths": [
+        "repowise/Invoke-RepoWise.ps1",
+        "repowise/venv312/Scripts/repowise.exe"
+      ],
+      "requires": [
+        "powershell"
+      ]
+    },
+    {
+      "id": "rtk",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/rtk-ai/rtk",
+      "revision": "1.2.1",
+      "paths": [
+        "rtk/Invoke-RTK.ps1",
+        "rtk/rtk.exe"
+      ],
+      "requires": [
+        "powershell"
+      ]
+    },
+    {
+      "id": "skills-manager-cli",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/xingkongliang/skills-manager",
+      "revision": "1.44.0",
+      "paths": [
+        "skills-manager/skills-manager-cli.exe",
+        "skills-manager/library"
+      ]
+    },
+    {
+      "id": "skillspector",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/NVIDIA/SkillSpector",
+      "revision": "2.13.6",
+      "paths": [
+        "skillspector/Scan-Skill.ps1",
+        "skillspector/venv/Scripts/skillspector.exe"
+      ],
+      "requires": [
+        "powershell"
+      ]
+    },
+    {
+      "id": "ui-ux-data",
+      "kind": "runtime",
+      "distribution": "runtime",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "revision": "2.15.0",
+      "paths": [
+        "ui-ux-pro-max/data"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "escrita",
+      "title": "Escrever e revisar",
+      "uses": [
+        "revisar-escrita",
+        "caveman"
+      ],
+      "workflow": "Use revisar-escrita em todos os materiais. Ative Caveman quando o usuário pedir modo telegráfico.",
+      "fallback": "Aplique as preferências de escrita do pedido."
+    },
+    {
+      "id": "continuidade",
+      "title": "Retomar ou registrar decisões",
+      "uses": [
+        "harness-local",
+        "harness_local"
+      ],
+      "workflow": "Busque até cinco notas relevantes. Use o caminho Git comum em worktrees. Registre apenas decisões ou passagens concisas.",
+      "fallback": "Use a consulta local ao mesmo banco quando o servidor MCP estiver indisponível."
+    },
+    {
+      "id": "marca",
+      "title": "Criar marca, nomes ou portfólio",
+      "uses": [
+        "brand-naming",
+        "brand-architecture",
+        "revisar-escrita",
+        "ecc"
+      ],
+      "workflow": "Use naming para comparar nomes. Use arquitetura de marca para mapear marcas e linhas de produtos. Consulte ecc:brand-discovery para entrevistas de posicionamento quando a skill estiver disponível.",
+      "fallback": "Reaproveite o briefing, os mercados e o público informados no pedido."
+    },
+    {
+      "id": "planejar-design",
+      "title": "Preparar briefing e navegação",
+      "uses": [
+        "design-brief",
+        "information-architecture",
+        "grill-me",
+        "grilling"
+      ],
+      "workflow": "Use design-brief para o problema e os objetivos. Use information-architecture para hierarquia, navegação e fluxos. Reserve a entrevista em rodadas para quando solicitada.",
+      "fallback": "Formalize as decisões já disponíveis e abra apenas as decisões essenciais que faltarem."
+    },
+    {
+      "id": "interface",
+      "title": "Criar ou revisar uma interface",
+      "uses": [
+        "frontend-design",
+        "design-taste-frontend",
+        "ui-ux-pro-max",
+        "impeccable-review",
+        "agent-browser"
+      ],
+      "workflow": "Escolha a direção visual pelo produto e preserve os tokens existentes. Examine a experiência renderizada antes de concluir a revisão.",
+      "fallback": "Use os componentes e o navegador disponíveis no projeto."
+    },
+    {
+      "id": "css",
+      "title": "Localizar tokens no CSS",
+      "uses": [
+        "ast_grep",
+        "frontend-design"
+      ],
+      "workflow": "Passe a regra runtime/css-tokens.yaml e a raiz absoluta do projeto ao ast-grep. Compare os valores com o seletor e o tema em que aparecem.",
+      "fallback": "Leia as propriedades personalizadas e os tokens declarados nos arquivos CSS selecionados."
+    },
+    {
+      "id": "codigo",
+      "title": "Implementar, revisar e pesquisar código",
+      "uses": [
+        "ponytail",
+        "source-driven-development",
+        "ast_grep",
+        "rtk",
+        "ecc"
+      ],
+      "workflow": "Verifique a fonte oficial de APIs. Use ast-grep para padrões estruturais, RTK para consultas exploratórias resumidas e a skill ECC da stack quando relevante.",
+      "fallback": "Use rg e o terminal original para evidência integral, edições e testes."
+    },
+    {
+      "id": "legado",
+      "title": "Documentar software legado e impacto",
+      "uses": [
+        "cartographer",
+        "graphify",
+        "ast_grep",
+        "repowise",
+        "ecc"
+      ],
+      "workflow": "Combine chamadas, mapa do projeto e testes. Quando o histórico Git mudar a análise, use RepoWise para o repositório selecionado.",
+      "fallback": "Confirme o mapa com os pontos de entrada, os diffs e os testes existentes."
+    },
+    {
+      "id": "testes-propriedades",
+      "title": "Testar invariantes e transformações",
+      "uses": [
+        "property-based-testing",
+        "ponytail"
+      ],
+      "workflow": "Formule propriedades verificáveis. Use a biblioteca adotada pelo projeto e preserve o menor contraexemplo útil.",
+      "fallback": "Escreva exemplos de borda quando forem suficientes para o comportamento pedido."
+    },
+    {
+      "id": "e2e",
+      "title": "Planejar, criar ou reparar testes web",
+      "uses": [
+        "playwright-test",
+        "playwright_test_planner",
+        "playwright_test_generator",
+        "playwright_test_healer",
+        "agent-browser"
+      ],
+      "workflow": "Use a convenção do projeto. O Planner registra projeto, seed, cenário e caminho. O Generator percorre o cenário, salva o teste e registra o resultado. O Healer começa pela reprodução da falha e termina na reexecução.",
+      "fallback": "Execute os testes do projeto e use um navegador disponível para verificar o fluxo."
+    },
+    {
+      "id": "dados",
+      "title": "Estruturar dados e análises reproduzíveis",
+      "uses": [
+        "jupyter-notebook",
+        "docling",
+        "property-based-testing",
+        "ecc"
+      ],
+      "workflow": "Escolha notebook para análise reproduzível. Use Docling para tabelas, ordem de leitura ou OCR de arquivos autorizados. Consulte a skill ECC da stack de dados se disponível.",
+      "fallback": "Use o leitor de documentos e as ferramentas da stack já instalados."
+    },
+    {
+      "id": "estudos",
+      "title": "Planejar redação e estudo de caso",
+      "uses": [
+        "redacao-e-estudo-de-caso",
+        "revisar-escrita",
+        "docling"
+      ],
+      "workflow": "Use a orientação da banca, a tarefa e o material disponibilizado. Selecione a estrutura de resposta que corresponda ao gênero pedido.",
+      "fallback": "Leia o enunciado e as referências autorizadas antes de sugerir o esqueleto."
+    },
+    {
+      "id": "gestao",
+      "title": "Descobrir, revisar ou gerenciar skills",
+      "uses": [
+        "find-skills",
+        "skillspector",
+        "manage-skills",
+        "skills-manager-cli"
+      ],
+      "workflow": "Confirme a origem e prepare a revisão exata. Analise a pasta com SkillSpector. Importe a cópia revisada só para a biblioteca e o destino solicitados.",
+      "fallback": "Consulte o catálogo local e a origem da skill. Preserve as cópias existentes até resolver conflitos."
+    },
+    {
+      "id": "claude",
+      "title": "Auditar configuração ou sugerir automações do Claude Code",
+      "uses": [
+        "claude-settings-audit",
+        "claude-automation-recommender"
+      ],
+      "workflow": "Use a auditoria para propor regras específicas do escopo pedido. Use a recomendação para selecionar automações justificadas pelo projeto.",
+      "fallback": "Consulte a documentação oficial da versão instalada e entregue uma proposta."
+    }
+  ]
+}

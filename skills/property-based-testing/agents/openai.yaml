@@ -1,0 +1,4 @@
+interface:
+  display_name: "Property-Based Testing"
+  short_description: "Write and review tests built around properties and invariants"
+  brand_color: "#D83A34"

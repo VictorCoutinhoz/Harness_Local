@@ -1,0 +1,7 @@
+id: css-tokens
+language: Css
+rule:
+  kind: declaration
+  has:
+    kind: property_name
+    regex: '^--'
